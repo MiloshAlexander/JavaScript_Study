@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>04_MathematicalOperations</title>        
+    </head>
+    <body>
+        <script type="text/javascript">            
+            for(var i = 0; i < 20; i++) {
+                if(i % 3 == 0) {
+                    continue;
+                }
+                if(i == 13) {
+                    break;
+                }
+                if(i != 9) {
+                     document.write(i + ", ");
+                } else {
+                    document.write(i + ".");
+                }                   
+            }            
+            document.write("<br>");
+            
+            var x = 0;
+            while (x < 10) {
+                document.write(x + " ");
+                x += 2;
+            }
+            document.write("<br>");
+            
+            /* хотя бы один раз цикл выполнится */
+            var y = 100;
+            do {
+                document.write(y + " ");
+            } while (y < 10);
+            
+            
+        </script>
+    </body>
+</html>
